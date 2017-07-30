@@ -1,0 +1,27 @@
+#navbarResponsive {
+    padding-left:300px;
+}
+
+#developmenthdr {padding-top:25px;}
+
+.profile-header-bioupdate {
+	padding:0px 100px 20px 100px;
+	font-size:14px;
+}
+
+@media (max-width: 900px) {
+    #navbarResponsive {
+        padding-left:150px;
+    }
+}
+
+@media (max-width: 767px) {
+    #navbarResponsive {
+        padding-left:0px;
+    }
+    .profile-header-bioupdate {
+	padding:0px 20px 20px 20px;
+	font-size:14px;
+}
+}
+
